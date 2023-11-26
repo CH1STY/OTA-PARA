@@ -79,6 +79,17 @@ dependencies {
     kapt ("com.google.dagger:hilt-compiler:2.48.1")
     implementation ("androidx.hilt:hilt-navigation-compose:1.1.0")
 
+    //Gson
+    implementation ("com.google.code.gson:gson:2.10.1")
+
+
+    //Retrofit
+    implementation ("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation ("com.squareup.okhttp3:okhttp:5.0.0-alpha.2")
+    implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation ("com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.2")
+
+
     //Below this line should exist test implementation
     //But Why are we adding those...... are we ever gonna use them?
 
